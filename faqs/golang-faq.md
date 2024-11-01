@@ -345,7 +345,7 @@ Brief: Error handling is a critical aspect of programming, and Golang approaches
 
 **1. The Error Type:**
 In Go, errors are represented by the built-in `error` type, which is an interface that defines a single method:
-```go.. [[more on How do you handle errors in Golang?](https://0x3d.site/question/how-do-you-handle-errors-in-golang)]
+[[more on How do you handle errors in Golang?](https://0x3d.site/question/how-do-you-handle-errors-in-golang)]
 
 
 ### 41. What are interfaces in Golang?
