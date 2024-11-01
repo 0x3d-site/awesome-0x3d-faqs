@@ -656,10 +656,7 @@ Brief: The Global Interpreter Lock (GIL) in Python presents unique challenges wh
 `To implement custom exceptions, create a new exception class by subclassing `Exception`. Use your custom exception in your code and provide meaningful messages to enhance error clarity.`
 
 Brief: Custom exception handling in Python allows you to create more specific and meaningful error reporting in your applications. To define a custom exception, create a new class that subclasses `Exception`. You can provide additional attributes or methods to your custom exception class to convey more information about the error context. For example: 
-
-```python
-class MyCustomError(Exception):
-    def _.. [[more on How do I implement custom exception handling in Python?](https://0x3d.site/question/how-do-i-implement-custom-exception-handling-in-python)]
+[[more on How do I implement custom exception handling in Python?](https://0x3d.site/question/how-do-i-implement-custom-exception-handling-in-python)]
 
 
 ### 95. What are the differences between `__str__` and `__repr__` methods in Python?
@@ -738,12 +735,7 @@ Brief: Testing is a vital part of the software development process, and Python p
 
 Brief: Handling exceptions in asynchronous code can be challenging due to the non-blocking nature of async functions. When using the `await` statement to call asynchronous functions, you can use try-except blocks to catch exceptions that may arise during execution. For example:
 
-```python
-async def my_coroutine():
-    try:
-        result = await some_async_function()
-    except SomeError as e:
-        ha.. [[more on How do I handle exceptions in asynchronous code?](https://0x3d.site/question/how-do-i-handle-exceptions-in-asynchronous-code)]
+[[more on How do I handle exceptions in asynchronous code?](https://0x3d.site/question/how-do-i-handle-exceptions-in-asynchronous-code)]
 
 
 ### 106. What is the purpose of `__init__.py` in Python packages?
@@ -793,10 +785,7 @@ Brief: Python generators are a special type of iterable that allow you to produc
 
 Brief: Implementing a RESTful API using Flask is a popular choice for Python developers due to its simplicity and flexibility. Start by installing Flask and Flask-RESTful, which provides tools for building REST APIs with minimal boilerplate code. Define your resources by creating classes that represent each endpoint. For example:
 
-```python
-from flask import Flask
-from flask_restful import Api, Resource
-.. [[more on How do I implement a RESTful API using Flask?](https://0x3d.site/question/how-do-i-implement-a-restful-api-using-flask)]
+[[more on How do I implement a RESTful API using Flask?](https://0x3d.site/question/how-do-i-implement-a-restful-api-using-flask)]
 
 
 ### 112. What are the benefits of using type hints in Python?
@@ -832,9 +821,7 @@ Brief: Understanding the difference between shallow and deep copies in Python is
 
 Brief: Implementing logging in your Python application is essential for tracking events and debugging. The built-in `logging` module provides a flexible framework for logging messages at different severity levels, including DEBUG, INFO, WARNING, ERROR, and CRITICAL. To begin using logging, import the module and set up a basic configuration:
 
-```python
-import logging
-logging.basicConfig(level=logging.INFO.. [[more on How do I implement logging in my Python application?](https://0x3d.site/question/how-do-i-implement-logging-in-my-python-application)]
+[[more on How do I implement logging in my Python application?](https://0x3d.site/question/how-do-i-implement-logging-in-my-python-application)]
 
 
 ### 116. How can I secure my Python web application?
@@ -880,11 +867,7 @@ Brief: The Global Interpreter Lock (GIL) is a mechanism that prevents multiple n
 
 Brief: Handling exceptions is an essential aspect of writing robust Python code. To manage exceptions effectively, use try-except blocks to encapsulate code that might raise errors. It's crucial to catch specific exceptions rather than using a generic except statement, as this helps prevent masking unexpected errors. For instance:
 
-```python
-try:
-    result = 10 / 0
-except ZeroDivisionError as e:
-    pri.. [[more on How do I handle exceptions in Python effectively?](https://0x3d.site/question/how-do-i-handle-exceptions-in-python-effectively)]
+[[more on How do I handle exceptions in Python effectively?](https://0x3d.site/question/how-do-i-handle-exceptions-in-python-effectively)]
 
 
 ### 122. What are the differences between `list` and `tuple` in Python?
@@ -907,8 +890,7 @@ Tuples, on t.. [[more on What are the differences between `list` and `tuple` in 
 
 Brief: Optimizing Python code for performance involves several strategies that can significantly improve execution speed and efficiency. Start by using Python's built-in functions and libraries, as they are implemented in C and optimized for performance. For example, use list comprehensions instead of for-loops for creating lists, which is often faster and more readable:
 
-```python
-squared = [x**2 for x .. [[more on How can I optimize the performance of my Python code?](https://0x3d.site/question/how-can-i-optimize-the-performance-of-my-python-code)]
+[[more on How can I optimize the performance of my Python code?](https://0x3d.site/question/how-can-i-optimize-the-performance-of-my-python-code)]
 
 
 ### 124. How do I create and use a virtual environment in Python?
@@ -917,8 +899,7 @@ squared = [x**2 for x .. [[more on How can I optimize the performance of my Pyth
 
 Brief: Creating and using a virtual environment in Python is essential for managing project dependencies without affecting your global Python installation. Virtual environments allow you to isolate dependencies for different projects, preventing version conflicts and ensuring reproducibility. To create a virtual environment, use the `venv` module, which is included in Python's standard library:
 
-```bash
-.. [[more on How do I create and use a virtual environment in Python?](https://0x3d.site/question/how-do-i-create-and-use-a-virtual-environment-in-python)]
+[[more on How do I create and use a virtual environment in Python?](https://0x3d.site/question/how-do-i-create-and-use-a-virtual-environment-in-python)]
 
 
 ### 125. What is the purpose of `__str__` and `__repr__` in Python classes?
@@ -927,11 +908,7 @@ Brief: Creating and using a virtual environment in Python is essential for manag
 
 Brief: In Python, `__str__` and `__repr__` are special methods used to define string representations of class instances, serving different purposes. The `__str__` method is intended to provide a user-friendly string representation of an object, which is more readable and suitable for display to end users. For example:
 
-```python
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-  .. [[more on What is the purpose of `__str__` and `__repr__` in Python classes?](https://0x3d.site/question/what-is-the-purpose-of-str-and-repr-in-python-classes)]
+[[more on What is the purpose of `__str__` and `__repr__` in Python classes?](https://0x3d.site/question/what-is-the-purpose-of-str-and-repr-in-python-classes)]
 
 
 ### 126. What is list comprehension in Python and how does it work?
@@ -957,9 +934,7 @@ Brief: Reading and writing files in Python is a fundamental task that can be acc
 - `'a'` for appending
 
 To read a file, use:
-```python
-with open('file.txt', 'r') as file:
-    .. [[more on How do I read and write files in Python?](https://0x3d.site/question/how-do-i-read-and-write-files-in-python)]
+[[more on How do I read and write files in Python?](https://0x3d.site/question/how-do-i-read-and-write-files-in-python)]
 
 
 ### 128. What is the purpose of `self` in Python class methods?
@@ -968,10 +943,7 @@ with open('file.txt', 'r') as file:
 
 Brief: `self` is a convention used in Python class methods to refer to the instance of the class on which a method is being called. It allows you to access attributes and other methods of the class instance. When you define a method within a class, you must include `self` as the first parameter, even if you don't use it in the method body:
 
-```python
-class Dog:
-    def __init__(self, name):
-        self... [[more on What is the purpose of `self` in Python class methods?](https://0x3d.site/question/what-is-the-purpose-of-self-in-python-class-methods)]
+[[more on What is the purpose of `self` in Python class methods?](https://0x3d.site/question/what-is-the-purpose-of-self-in-python-class-methods)]
 
 
 ### 129. How do I debug my Python code?
@@ -1001,8 +973,7 @@ numpy>=1.19.0
 ``` 
 
 You can create this file manually or generate it using:
-```bash
-pip freeze > req.. [[more on How do I manage dependencies in my Python project?](https://0x3d.site/question/how-do-i-manage-dependencies-in-my-python-project)]
+[[more on How do I manage dependencies in my Python project?](https://0x3d.site/question/how-do-i-manage-dependencies-in-my-python-project)]
 
 
 ### 132. What is the difference between `staticmethod` and `classmethod` in Python?
@@ -1017,10 +988,7 @@ Brief: In Python, both `staticmethod` and `classmethod` are decorators that defi
 `Use the `json` module to parse JSON data with `json.loads()` and convert Python objects to JSON using `json.dumps()`. This allows easy data interchange.`
 
 Brief: Working with JSON data in Python is straightforward thanks to the built-in `json` module. JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. To parse a JSON string into a Python dictionary, you can use the `json.loads()` function:
-```python
-import json
-
-json_data = '{"name": "Alice", "age.. [[more on How do I work with JSON data in Python?](https://0x3d.site/question/how-do-i-work-with-json-data-in-python)]
+[[more on How do I work with JSON data in Python?](https://0x3d.site/question/how-do-i-work-with-json-data-in-python)]
 
 
 ### 134. What are Python's built-in data types?
@@ -1070,12 +1038,7 @@ Here, `x` and `y` have the same contents, so `x == y` evaluates to `True`. In co
 
 Brief: Inheritance is a core concept in object-oriented programming, allowing you to create a new class based on an existing class. This promotes code reuse and establishes a hierarchical relationship between classes. In Python, you can implement inheritance using the following syntax:
 
-```python
-class ParentClass:
-    def parent_method(self):
-        print('This is a method from the parent class.')
-
-cla.. [[more on How do I implement inheritance in Python?](https://0x3d.site/question/how-do-i-implement-inheritance-in-python)]
+[[more on How do I implement inheritance in Python?](https://0x3d.site/question/how-do-i-implement-inheritance-in-python)]
 
 
 ### 138. What are Python decorators and how do they work?
@@ -1085,9 +1048,7 @@ cla.. [[more on How do I implement inheritance in Python?](https://0x3d.site/que
 Brief: Decorators are a powerful feature in Python that allows you to modify or extend the behavior of functions or methods without changing their actual code. A decorator is essentially a function that takes another function as an argument and returns a new function that usually enhances or alters the behavior of the original function.
 
 Here’s how you can create a simple decorator:
-
-```python
-def my_dec.. [[more on What are Python decorators and how do they work?](https://0x3d.site/question/what-are-python-decorators-and-how-do-they-work)]
+[[more on What are Python decorators and how do they work?](https://0x3d.site/question/what-are-python-decorators-and-how-do-they-work)]
 
 
 ### 139. What is a lambda function in Python?
@@ -1101,8 +1062,7 @@ lambda arguments: expression
 ``` 
 
 For example, you can define a simple lambda function that adds two numbers:
-```python
-add .. [[more on What is a lambda function in Python?](https://0x3d.site/question/what-is-a-lambda-function-in-python)]
+[[more on What is a lambda function in Python?](https://0x3d.site/question/what-is-a-lambda-function-in-python)]
 
 
 ### 140. What is the purpose of the `__init__` method in Python classes?
@@ -1112,10 +1072,7 @@ add .. [[more on What is a lambda function in Python?](https://0x3d.site/questio
 Brief: In Python, the `__init__` method is a special method that initializes newly created objects. This method is called automatically when an object is instantiated from a class. The `__init__` method allows you to set the initial values for the object's attributes and to execute any setup procedures required for the object.
 
 Here’s a simple example:
-
-```python
-class Car:
-    def __init__(self, make, m.. [[more on What is the purpose of the `__init__` method in Python classes?](https://0x3d.site/question/what-is-the-purpose-of-the-init-method-in-python-classes)]
+[[more on What is the purpose of the `__init__` method in Python classes?](https://0x3d.site/question/what-is-the-purpose-of-the-init-method-in-python-classes)]
 
 
 ### 141. How do I use the `map` function in Python?
@@ -1149,10 +1106,7 @@ Brief: Sorting lists in Python can be accomplished using two primary methods: th
 
 ### Using `sort()` Method
 To sort a list in place, you can use:
-```python
-my_list = [3, 1, 4, 1, 5]
-my_list.sort()
-print(my_list)  # Output: [1, 1, 3, 4.. [[more on How do I sort a list in Python?](https://0x3d.site/question/how-do-i-sort-a-list-in-python)]
+[[more on How do I sort a list in Python?](https://0x3d.site/question/how-do-i-sort-a-list-in-python)]
 
 
 ### 144. How can I handle exceptions in Python?
@@ -1161,11 +1115,7 @@ print(my_list)  # Output: [1, 1, 3, 4.. [[more on How do I sort a list in Python
 
 Brief: Exception handling in Python is a critical feature that allows you to manage errors gracefully without crashing your program. By using `try` and `except` blocks, you can catch exceptions that may occur during runtime and provide an alternative response. The basic syntax is as follows:
 
-```python
-try:
-    # Code that may raise an exception
-except ExceptionType:
-    # Code that executes if an except.. [[more on How can I handle exceptions in Python?](https://0x3d.site/question/how-can-i-handle-exceptions-in-python)]
+[[more on How can I handle exceptions in Python?](https://0x3d.site/question/how-can-i-handle-exceptions-in-python)]
 
 
 ### 145. What is a list comprehension in Python?
@@ -1178,8 +1128,7 @@ new_list = [expression for item in iterable if condition]
 ``` 
 
 Here’s a simple example that creates a list of squares for even numbers:
-```python
-.. [[more on What is a list comprehension in Python?](https://0x3d.site/question/what-is-a-list-comprehension-in-python)]
+[[more on What is a list comprehension in Python?](https://0x3d.site/question/what-is-a-list-comprehension-in-python)]
 
 
 ### 146. How do I use the `filter` function in Python?
@@ -1202,7 +1151,7 @@ Brief: Creating a virtual environment in Python is essential for managing depend
 
 ### Step 1: Create a Virtual Environment
 Run the following command in your terminal or command prompt:
-```b.. [[more on How do I create a virtual environment in Python?](https://0x3d.site/question/how-do-i-create-a-virtual-environment-in-python)]
+[[more on How do I create a virtual environment in Python?](https://0x3d.site/question/how-do-i-create-a-virtual-environment-in-python)]
 
 
 ### 148. How do I merge two dictionaries in Python?
@@ -1213,12 +1162,7 @@ Brief: Merging dictionaries in Python can be done in several ways, depending on 
 
 ### Using `update()` Method
 The `update()` method modifies the first dictionary in place, adding key-value pairs from the second dictionary:
-```python
-dict1 = {'a': 1, 'b': 2}
-dict2 = {'b': 3, 'c': 4}
-
-dict1.update(dict2)
-print(dict1)  # Output: {'a': 1, 'b'.. [[more on How do I merge two dictionaries in Python?](https://0x3d.site/question/how-do-i-merge-two-dictionaries-in-python)]
+[[more on How do I merge two dictionaries in Python?](https://0x3d.site/question/how-do-i-merge-two-dictionaries-in-python)]
 
 
 ### 149. What is full stack development in Python?
