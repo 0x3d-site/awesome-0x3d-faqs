@@ -2,6 +2,8 @@
 
 > mail support@0x3d.site to any kinds of information or query 🔥.
 
+made by [0x3d.site](https://0x3d.site) 
+
 Welcome to the Awesome 0x3d FAQ's Collection! This repository is your one-stop destination for frequently asked questions across technology, programming languages, and more. Each FAQ file includes both quick answers for reference and in-depth explanations to boost your understanding.
 
 Whether you're prepping for coding interviews, expanding your skills, or exploring new topics, there’s something here for everyone.
