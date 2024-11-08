@@ -18,39 +18,39 @@ Whether you're prepping for coding interviews, expanding your skills, or explori
 ### Python
 Python is a versatile and easy-to-learn programming language known for its clear syntax and readability. It's widely used in web development, data analysis, artificial intelligence, scientific computing, and automation.
 
-📂 [Read the Python FAQ](./faqs/python-faq.md)
+📂 [Read the Python FAQ](https://github.com/0x3d-site/awesome-python-0x3d-faqs-collection)
 
 ### Elixir
 Elixir is a functional, concurrent programming language built on the Erlang VM, known for its scalability and fault tolerance. It’s popular for building distributed and high-performance applications, especially in real-time systems.
 
-📂 [Read the Elixir FAQ](./faqs/elixir-faq.md)
+📂 [Read the Elixir FAQ](https://github.com/0x3d-site/awesome-elixir-0x3d-faqs-collection)
 
 ### GoLang
 Go, or Golang, is a fast, statically typed programming language developed by Google, designed for simplicity and efficiency. It’s ideal for building scalable, high-performance applications, especially in cloud and server-side environments.
 
-📂 [Read the GoLang FAQ](./faqs/golang-faq.md)
+📂 [Read the GoLang FAQ](https://github.com/0x3d-site/awesome-golang-0x3d-faqs-collection)
 
 ### NodeJS
 Node.js is a JavaScript runtime built on Chrome’s V8 engine that enables fast, scalable server-side applications. It’s widely used for building web servers, APIs, and real-time applications due to its non-blocking, event-driven architecture.
 
-📂 [Read the NodeJS FAQ](./faqs/nodejs-faq.md)
+📂 [Read the NodeJS FAQ](https://github.com/0x3d-site/awesome-nodejs-0x3d-faqs-collection)
 
 ## Development
 
 ### OpenSource
 Open source refers to software with publicly accessible code, allowing anyone to view, modify, and distribute it. This collaborative approach fosters innovation and community-driven development, making software more flexible and accessible to everyone.
 
-📂 [Read the OpenSource FAQ](./faqs/open-source-faq.md)
+📂 [Read the OpenSource FAQ](https://github.com/0x3d-site/awesome-open-source-0x3d-faqs-collection)
 
 ### Cross-Platform
 Cross-platform development is the practice of building applications that run seamlessly on multiple operating systems, like Windows, macOS, and Linux, or across mobile platforms. It allows developers to reach a broader audience with a single codebase, saving time and resources.
 
-📂 [Read the Cross-Platform FAQ](./faqs/cross-platform-faq.md)
+📂 [Read the Cross-Platform FAQ](https://github.com/0x3d-site/awesome-cross-platform-0x3d-faqs-collection)
 
 ### Analytics
 Analytics is the process of collecting, processing, and interpreting data to gain insights and make informed decisions. It's essential in fields like business, marketing, and tech to track performance, understand trends, and drive strategy.
 
-📂 [Read the Analytics FAQ](./faqs/analytics-faq.md)
+📂 [Read the Analytics FAQ](https://github.com/0x3d-site/awesome-analytics-0x3d-faqs-collection)
 
 
 ## Contributing
